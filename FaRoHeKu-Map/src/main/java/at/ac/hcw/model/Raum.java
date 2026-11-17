@@ -31,4 +31,14 @@ A.E.02 Bibliothek, Zugang neben ÖH
 A.E.03 Bibliothek 
 A.E.03 Bibliothek, Zugang von 
 A.E.04 Technikraum
+
  */
+public class Raum {
+    String name; 
+    String beschreibung; 
+
+    public Raum(String name, String beschreibung) {
+        this.name = name; 
+        this.beschreibung = beschreibung; 
+    }
+}
