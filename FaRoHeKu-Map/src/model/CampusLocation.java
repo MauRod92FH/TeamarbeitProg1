@@ -9,7 +9,7 @@ Name, Ebene, Gebäudebereich und Kategorie jedes Ortes
 //Ebene: A.E
 Room room1 = new Room ("AE01", "ÖH", "A.E.01" );
 Room room2 = new Room ("AE02", "Bibliothek", "A.E.02");
-Room room3 = new Room ("AE03", "Bibliothek", "A.E.03"); //noch ein Zugang mit A.E.03
+Room room3 = new Room ("AE03", "Bibliothek", "A.E.03"); //noch ein Zugang mit A.E.03, Bib hat drei Eingänge
 Room room4 = new Room ("AE04", "Technikraum", "A.E.04");
 Room room5 = new Room ("AE09", "Technikraum", "A.E.09");
 Room room6 = new Room ("AE10", "-", "A.E.10");
