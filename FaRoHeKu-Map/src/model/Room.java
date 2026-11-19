@@ -10,8 +10,17 @@ public class Room { //Vorlage für alle Räume, Vorbereitung für die Räume, di
     this.name = name;
     this.roomnumber = roomnumber;
 } 
-public String getId() { //gespeicherte id 
+public String getid() { //gespeicherte id abfragen
     return id;
+}
+
+public String getname() {
+    return name;
+
+}
+
+public String getroomnumber(){
+    return roomnumber;
 }
 
 }
