@@ -3,8 +3,6 @@ package model;
 import java.util.ArrayList;
 import java.util.List;
 
-import javax.swing.RootPaneContainer;
-
 public class CampusLocation {
 
 /* Gemeinsame Grundlage für alle auffindbaren oder als Ziel auswählbaren Orte: Räume, Lernflächen, Eingänge
