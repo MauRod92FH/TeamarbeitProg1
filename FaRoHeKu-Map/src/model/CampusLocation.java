@@ -110,7 +110,7 @@ rooms.add(new Room("DZ28", "Kopierraum", "D.Z.28"));
 rooms.add(new Room("DZ30", "Biomedizinische Analytik Administration", "D.Z.30")); //Funktionsdiagnostik, Histopathologie, Zytologie; Zugang zu D.Z.32 - 33
 rooms.add(new Room("DZ31", "Biomedizinische Analytik Administration", "D.Z.31")); //Zugang zu D.Z.32-33
 
-//Ebene: A.1
+// Ebene: A.1
 rooms.add(new Room("A101", "Lehrsaal", "A.1.01"));
 rooms.add(new Room("A102a", "-", "A.1.02a"));
 rooms.add(new Room("A103", "Lehrsaal", "A.1.03"));
@@ -130,7 +130,7 @@ rooms.add(new Room("A116", "Lehrsaal", "A.1.16"));
 rooms.add(new Room("A117", "-", "A.1.17"));
 rooms.add(new Room("A118", "-", "A.1.18"));
 
-//Ebene: B.1 
+// Ebene: B.1
 rooms.add(new Room("B101", "Lehrsaal", "B.1.01"));
 rooms.add(new Room("B102", "Lehrsaal", "B.1.02"));
 rooms.add(new Room("B103", "Lehrsaal", "B.1.03"));
@@ -141,28 +141,28 @@ rooms.add(new Room("B107", "EDV-Lehrsaal", "B.1.07"));
 rooms.add(new Room("B108", "EDV-Lehrsaal", "B.1.08"));
 rooms.add(new Room("B109", "IT-Services", "B.1.09"));
 rooms.add(new Room("B110", "EDV-Lehrsaal", "B.1.10"));
-rooms.add(new Room("B111", "Elektroniklabor", "B.1.11")); //Zugang zu B.1.12
+rooms.add(new Room("B111", "Elektroniklabor", "B.1.11")); // Zugang zu B.1.12
 rooms.add(new Room("B112", "-", "B.1.12"));
 rooms.add(new Room("B113", "WC", "B.1.13"));
 rooms.add(new Room("B114", "WC", "B.1.14"));
 rooms.add(new Room("B115", "IT-Services", "B.1.15"));
 rooms.add(new Room("B116", "IT-Services", "B.1.16"));
-rooms.add(new Room("B117", "Technikraum", "B.1.17")); //Zugang zu B.1.20
+rooms.add(new Room("B117", "Technikraum", "B.1.17")); // Zugang zu B.1.20
 rooms.add(new Room("B118", "IT-Services", "B.1.18"));
 rooms.add(new Room("B121", "Technikraum", "B.1.21"));
 rooms.add(new Room("B122", "Küche Mitarbeiter*innen", "B.1.22"));
 rooms.add(new Room("B123", "IT-Services", "B.1.23"));
-rooms.add(new Room("B124", "Netzwerklabor", "B.1.24")); //Zugang zu B.1.25
+rooms.add(new Room("B124", "Netzwerklabor", "B.1.24")); // Zugang zu B.1.25
 rooms.add(new Room("B125", "-", "B.1.25"));
-rooms.add(new Room("B126", "IT-Services", "B.1.26")); //ZUgang zu B.1.27-30
+rooms.add(new Room("B126", "IT-Services", "B.1.26")); // Zugang zu B.1.27-30
 
-//Ebene: C.1
+// Ebene: C.1
 rooms.add(new Room("C101", "Selbsthilferaum", "C.1.01"));
 rooms.add(new Room("C102", "Mikroskopiersaal", "C.1.02"));
 rooms.add(new Room("C103", "Selbsthilferaum", "C.1.03"));
 rooms.add(new Room("C104", "Mikroskopiersaal", "C.1.04"));
 rooms.add(new Room("C105", "Lagerraum", "C.1.05"));
-rooms.add(new Room("C106", "WC", "C.1.06")); //Zugang zu C.1.07
+rooms.add(new Room("C106", "WC", "C.1.06")); // Zugang zu C.1.07
 rooms.add(new Room("C108a", "Lagerraum", "C.1.08a"));
 rooms.add(new Room("C108b", "-", "C.1.08b"));
 rooms.add(new Room("C109", "Funktionsdiagnostik", "C.1.09"));
@@ -175,7 +175,7 @@ rooms.add(new Room("C115", "Lagerraum", "C.1.15"));
 rooms.add(new Room("C116", "Garderobe M", "C.1.16"));
 rooms.add(new Room("C117", "Technikraum", "C.1.17"));
 rooms.add(new Room("C118", "Lagerraum Histologie, Zytologie", "C.1.18"));
-rooms.add(new Room("C119", "Biomedizinische Analytik Büro", "C.1.19")); 
+rooms.add(new Room("C119", "Biomedizinische Analytik Büro", "C.1.19"));
 rooms.add(new Room("C120", "Garderrobe", "C.1.20"));
 rooms.add(new Room("C121", "Lehrsaal", "C.1.21"));
 rooms.add(new Room("C122a", "Biomedizinische Analytik Büro", "C.1.22a"));
@@ -184,7 +184,7 @@ rooms.add(new Room("C122c", "Biomedizinische Analytik Büro", "C.1.22c"));
 rooms.add(new Room("C123", "Funktionsraum", "C.1.23"));
 rooms.add(new Room("C128", "Biomedizinische Analytik Büro", "C.1.28"));
 
-//Ebene: D.1
+// Ebene: D.1
 rooms.add(new Room("D102", "Lehrsaal", "D.1.02"));
 rooms.add(new Room("D103", "Labor Makroskopie", "D.1.03"));
 rooms.add(new Room("D104", "Labor Histologie, Zytologie", "D.1.04"));
@@ -215,14 +215,14 @@ rooms.add(new Room("D130", "Vorbereitungsraum für Lehrende", "D.1.302"));
 rooms.add(new Room("D131", "Biomedizinische Analytik Büro", "D.1.31"));
 rooms.add(new Room("D132", "-", "D.1.32"));
 rooms.add(new Room("D133", "Administration", "D.1.33"));
-rooms.add(new Room("D134", "Biomedizinische Analytik Büro", "D.1.34")); //?
+rooms.add(new Room("D134", "Biomedizinische Analytik Büro", "D.1.34"));
 
-//Ebene: A.2
+// Ebene: A.2
 rooms.add(new Room("A201", "Besprechungsraum", "A.2.01"));
 rooms.add(new Room("A202", "Forschungszentrum Verwaltungswissenschaften", "A.2.02"));
 rooms.add(new Room("A203", "Lehrsaal", "A.2.03"));
 rooms.add(new Room("A204", "Technikraum", "A.2.04"));
-rooms.add(new Room("A205", "Technikraum", "A.2.05")); //Zugang zu A.2.06
+rooms.add(new Room("A205", "Technikraum", "A.2.05")); // Zugang zu A.2.06
 rooms.add(new Room("A207", "WC Barrierefrei", "A.2.07"));
 rooms.add(new Room("A210", "Lehrsaal", "A.2.10"));
 rooms.add(new Room("A211", "Zentrum für wissenschaftliches Schreiben", "A.2.11"));
@@ -241,7 +241,7 @@ rooms.add(new Room("A223", "Lagerraum", "A.2.23"));
 rooms.add(new Room("A224", "Kopierraum", "A.2.24"));
 rooms.add(new Room("A225", "Küche Mitarbeiter*innen", "A.2.25"));
 rooms.add(new Room("A226", "Sozialwissenschaften Büro", "A.2.26"));
-rooms.add(new Room("A227", "Sozialwissenschaften Administration", "A.2.27")); //Elementarpädagogik, Sozialmanagement in der Elemenetarpädagogik
+rooms.add(new Room("A227", "Sozialwissenschaften Administration", "A.2.27"));
 rooms.add(new Room("A228", "Sozialwissenschaften Büro", "A.2.28"));
 
 //Ebene: B.2
@@ -534,4 +534,3 @@ public List<Room> getRooms(){
 
 
 }
-

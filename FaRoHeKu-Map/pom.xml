@@ -1,17 +1,16 @@
-<project xmlns="http://maven.apache.org/POM/4.0.0">
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <!-- 1. Name deines Projekts (frei wählbar) -->
     <groupId>Navigation</groupId>
     <artifactId>FaRoHeKu-Map</artifactId>
     <version>1.0</version>
 
-    <!-- 2. Welche Java-Version -->
     <properties>
         <maven.compiler.release>21</maven.compiler.release>
     </properties>
 
-    <!-- 3. HIER wird JavaFX integriert -->
     <dependencies>
         <dependency>
             <groupId>org.openjfx</groupId>
@@ -20,15 +19,15 @@
         </dependency>
     </dependencies>
 
-    <!-- 4. Plugin zum Starten der App -->
     <build>
+        <sourceDirectory>src</sourceDirectory>
         <plugins>
             <plugin>
                 <groupId>org.openjfx</groupId>
                 <artifactId>javafx-maven-plugin</artifactId>
                 <version>0.0.8</version>
                 <configuration>
-                    <mainClass>app.Main</mainClass>
+                    <mainClass>App</mainClass>
                 </configuration>
             </plugin>
         </plugins>

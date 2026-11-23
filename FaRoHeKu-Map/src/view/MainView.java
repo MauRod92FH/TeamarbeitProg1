@@ -1,5 +1,18 @@
 package view;
 
-public class MainView {
-    //Benutzeroberfläche, Ebenenauswahl, Suchleiste, Kartenansicht, Navigation
+import model.Building;
+import javafx.scene.layout.BorderPane;
+
+public class MainView extends BorderPane {
+
+    private MapView mapView;
+
+    public MainView(Building building) {
+        this.mapView = new MapView(building);
+        this.setCenter(mapView);
+    }
+
+    public MapView getMapView() {
+        return mapView;
+    }
 }
