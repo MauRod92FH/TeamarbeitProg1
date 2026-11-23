@@ -525,7 +525,7 @@ rooms.add(new Room("C-230", "Kraftraum", "C.-2.30"));
 rooms.add(new Room("C-231", "Lagerraum", "C.-2.31"));
 
 //Ebene: D.-2
-room.add(new Room("D-201", "-", "D.-2.01")); //Zugang zu D.-2.02-19
+rooms.add(new Room("D-201", "-", "D.-2.01")); //Zugang zu D.-2.02-19
 }
 
 public List<Room> getRooms(){
