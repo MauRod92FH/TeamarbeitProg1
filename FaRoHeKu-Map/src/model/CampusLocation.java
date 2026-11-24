@@ -8,7 +8,7 @@ public class CampusLocation {
 /* Gemeinsame Grundlage für alle auffindbaren oder als Ziel auswählbaren Orte: Räume, Lernflächen, Eingänge
 Name, Ebene, Gebäudebereich und Kategorie jedes Ortes
  */
-private List<Room> rooms = new Arraylist<>();
+private List<Room> rooms = new ArrayList<>();
 public CampusLocation(){
 
 //Ebene: A.E
