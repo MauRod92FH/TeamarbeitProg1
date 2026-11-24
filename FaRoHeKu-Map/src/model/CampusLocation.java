@@ -26,10 +26,9 @@ rooms.add(new Room("BE03", "Festsaal", "B.E.03"));
 rooms.add(new Room("BE04", "Lagerraum", "B.E.04"));
 rooms.add(new Room("BE05", "WC Barrierefrei", "B.E.05"));
 rooms.add(new Room("BE06", "WC", "B.E.06"));
-rooms.add(new Room("BE07", "-", "B.E.07")); //Zugang zu B.E.09-12
+rooms.add(new Room("BE07", null, "B.E.07")); //Zugang zu B.E.09-12
 rooms.add(new Room("BE08", "Kopierraum", "B.E.08"));
 rooms.add(new Room("BE14", "Müllraum", "B.E.14"));
-rooms.add(new Room("BE15", "-", "B.E.15"));
 
 //Ebene: C.E
 rooms.add(new Room("CE01", "Lehrsaal", "C.E.01"));
@@ -75,16 +74,16 @@ rooms.add(new Room("CZ16", "Technikraum", "C.Z.16"));
 rooms.add(new Room("CZ17", "Lagerraum", "C.Z.17"));
 rooms.add(new Room("CZ18", "Lehrsaal", "C.Z.18"));
 rooms.add(new Room("CZ19", "EDV-Lehrsaal", "C.Z.19"));
-rooms.add(new Room("CZ20", "-", "C.Z.20"));
+rooms.add(new Room("CZ20", null, "C.Z.20"));
 rooms.add(new Room("CZ21", "EDV-Lehrsaal", "C.Z.21"));
 rooms.add(new Room("CZ22", "VERT Labor", "C.Z.22"));
-rooms.add(new Room("CZ23", "-", "C.Z.23"));
+rooms.add(new Room("CZ23", null, "C.Z.23"));
 
 //Ebene: D.Z
 rooms.add(new Room("DZ01", "Labor Immunologie", "D.Z.01"));
-rooms.add(new Room("DZ02", "-", "D.Z.02"));
+rooms.add(new Room("DZ02", null, "D.Z.02"));
 rooms.add(new Room("DZ03", "Labor Immunologie", "D.Z.03"));
-rooms.add(new Room("DZ04", "-", "D.Z.04"));
+rooms.add(new Room("DZ04", null, "D.Z.04")); 
 rooms.add(new Room("DZ05", "Labor Immunhämatologie", "D.Z.05"));
 rooms.add(new Room("DZ06", "Labor Hämatologie, Immunhämatologie", "D.Z.06"));
 rooms.add(new Room("DZ07", "Labor Hämatologie, Immunhämatologie", "D.Z.07"));
@@ -97,7 +96,7 @@ rooms.add(new Room("DZ13", "Technikraum", "D.Z.13"));
 rooms.add(new Room("DZ14", "Labor Zytologie", "D.Z.14"));
 rooms.add(new Room("DZ16", "Labor Zytologie", "D.Z.16"));
 rooms.add(new Room("DZ17", "WC Mitarbeiter*innen", "D.Z.17"));
-rooms.add(new Room("DZ19", "-", "D.Z.19"));
+rooms.add(new Room("DZ19", null, "D.Z.19"));
 rooms.add(new Room("DZ20", "Labor Zytologie", "D.Z.20"));
 rooms.add(new Room("DZ21", "Biomedizinische Analytik Büro", "D.Z.21"));
 rooms.add(new Room("DZ22", "Biomedizinische Analytik Büro", "D.Z.22"));
@@ -112,7 +111,7 @@ rooms.add(new Room("DZ31", "Biomedizinische Analytik Administration", "D.Z.31"))
 
 // Ebene: A.1
 rooms.add(new Room("A101", "Lehrsaal", "A.1.01"));
-rooms.add(new Room("A102a", "-", "A.1.02a"));
+rooms.add(new Room("A102a", null, "A.1.02a"));
 rooms.add(new Room("A103", "Lehrsaal", "A.1.03"));
 rooms.add(new Room("A104", "Technikraum", "A.1.04"));
 rooms.add(new Room("A105", "Lehrsaal", "A.1.05"));
@@ -120,15 +119,15 @@ rooms.add(new Room("A106", "Technikraum", "A.1.06"));
 rooms.add(new Room("A107", "Lagerraum", "A.1.07"));
 rooms.add(new Room("A108", "WC", "A.1.08"));
 rooms.add(new Room("A109", "Verwaltung, Wirtschaft, Sicherheit, Politik Büro", "A.1.09"));
-rooms.add(new Room("A110", "WC für Mitarbeiter*innen", "A.1.10"));
+rooms.add(new Room("A110", "WC Mitarbeiter*innen", "A.1.10"));
 rooms.add(new Room("A111", "Verwaltung, Wirtschaft, Sicherheit, Politik Büro", "A.1.11"));
 rooms.add(new Room("A112", "Tax Management", "A.1.12"));
 rooms.add(new Room("A113", "Lehrsaal", "A.1.13"));
 rooms.add(new Room("A114", "Tax Management", "A.1.14"));
 rooms.add(new Room("A115", "PHOENIX CONTACT Labor", "A.1.15"));
 rooms.add(new Room("A116", "Lehrsaal", "A.1.16"));
-rooms.add(new Room("A117", "-", "A.1.17"));
-rooms.add(new Room("A118", "-", "A.1.18"));
+rooms.add(new Room("A117", null, "A.1.17"));
+rooms.add(new Room("A118", null, "A.1.18"));
 
 // Ebene: B.1
 rooms.add(new Room("B101", "Lehrsaal", "B.1.01"));
@@ -142,7 +141,6 @@ rooms.add(new Room("B108", "EDV-Lehrsaal", "B.1.08"));
 rooms.add(new Room("B109", "IT-Services", "B.1.09"));
 rooms.add(new Room("B110", "EDV-Lehrsaal", "B.1.10"));
 rooms.add(new Room("B111", "Elektroniklabor", "B.1.11")); // Zugang zu B.1.12
-rooms.add(new Room("B112", "-", "B.1.12"));
 rooms.add(new Room("B113", "WC", "B.1.13"));
 rooms.add(new Room("B114", "WC", "B.1.14"));
 rooms.add(new Room("B115", "IT-Services", "B.1.15"));
@@ -153,7 +151,6 @@ rooms.add(new Room("B121", "Technikraum", "B.1.21"));
 rooms.add(new Room("B122", "Küche Mitarbeiter*innen", "B.1.22"));
 rooms.add(new Room("B123", "IT-Services", "B.1.23"));
 rooms.add(new Room("B124", "Netzwerklabor", "B.1.24")); // Zugang zu B.1.25
-rooms.add(new Room("B125", "-", "B.1.25"));
 rooms.add(new Room("B126", "IT-Services", "B.1.26")); // Zugang zu B.1.27-30
 
 // Ebene: C.1
@@ -164,11 +161,11 @@ rooms.add(new Room("C104", "Mikroskopiersaal", "C.1.04"));
 rooms.add(new Room("C105", "Lagerraum", "C.1.05"));
 rooms.add(new Room("C106", "WC", "C.1.06")); // Zugang zu C.1.07
 rooms.add(new Room("C108a", "Lagerraum", "C.1.08a"));
-rooms.add(new Room("C108b", "-", "C.1.08b"));
+rooms.add(new Room("C108b", null, "C.1.08b"));
 rooms.add(new Room("C109", "Funktionsdiagnostik", "C.1.09"));
 rooms.add(new Room("C110", "Garderobe Lehrende F", "C.1.10"));
 rooms.add(new Room("C111", "Technikraum", "C.1.11"));
-rooms.add(new Room("C112", "Garderobe Lehrrende F", "C.1.12"));
+rooms.add(new Room("C112", "Garderobe Lehrende F", "C.1.12"));
 rooms.add(new Room("C113", "Garderrobe F", "C.1.13"));
 rooms.add(new Room("C114", "Technikraum", "C.1.14"));
 rooms.add(new Room("C115", "Lagerraum", "C.1.15"));
@@ -189,13 +186,13 @@ rooms.add(new Room("D102", "Lehrsaal", "D.1.02"));
 rooms.add(new Room("D103", "Labor Makroskopie", "D.1.03"));
 rooms.add(new Room("D104", "Labor Histologie, Zytologie", "D.1.04"));
 rooms.add(new Room("D106", "Labor Klinische Chemie", "D.1.06"));
-rooms.add(new Room("D107", "-", "D.1.07"));
+rooms.add(new Room("D107", null, "D.1.07"));
 rooms.add(new Room("D108", "Labor Klinische Chemie", "D.1.08"));
 rooms.add(new Room("D109", "Labor Mikrotomie", "D.1.09"));
 rooms.add(new Room("D110", "Facilitymanagement", "D.1.10"));
 rooms.add(new Room("D111", "Facilitymanagement", "D.1.11"));
 rooms.add(new Room("D112", "Technikraum", "D.1.12"));
-rooms.add(new Room("D113", "-", "D.1.13"));
+rooms.add(new Room("D113", null, "D.1.13"));
 rooms.add(new Room("D114", "Lagerraum", "D.1.14"));
 rooms.add(new Room("D115", "Technikraum", "D.1.15"));
 rooms.add(new Room("D116", "Biomedizinische Analytik Büro", "D.1.16"));
@@ -211,9 +208,9 @@ rooms.add(new Room("D126", "Kopierraum", "D.1.26"));
 rooms.add(new Room("D127", "Lagerraum", "D.1.27"));
 rooms.add(new Room("D128", "Biomedizinische Analytik Büro", "D.1.28"));
 rooms.add(new Room("D129", "Biomedizinische Analytik Büro", "D.1.29"));
-rooms.add(new Room("D130", "Vorbereitungsraum für Lehrende", "D.1.302"));
+rooms.add(new Room("D130", "Vorbereitungsraum für Lehrende", "D.1.30"));
 rooms.add(new Room("D131", "Biomedizinische Analytik Büro", "D.1.31"));
-rooms.add(new Room("D132", "-", "D.1.32"));
+rooms.add(new Room("D132", null, "D.1.32"));
 rooms.add(new Room("D133", "Administration", "D.1.33"));
 rooms.add(new Room("D134", "Biomedizinische Analytik Büro", "D.1.34"));
 
@@ -248,7 +245,7 @@ rooms.add(new Room("A228", "Sozialwissenschaften Büro", "A.2.28"));
 rooms.add(new Room("B201", "Sozialwissenschaften Büro", "B.2.01"));
 rooms.add(new Room("B202", "Sozialwissenschaften Administration", "B.2.02")); //Sozialarbiet (Administration), Zugang zu B.2.03
 rooms.add(new Room("B204", "Sozialwissenschaften Büro", "B.2.04"));
-rooms.add(new Room("B205", "-", "B.2.05"));
+rooms.add(new Room("B205", null, "B.2.05"));
 rooms.add(new Room("B206", "Sozialwissenschaften Büro", "B.2.06"));
 rooms.add(new Room("B207", "Sozialwissenschaften Büro", "B.2.07"));
 rooms.add(new Room("B208", "Sozialwissenschaften Büro", "B.2.08"));
@@ -256,7 +253,7 @@ rooms.add(new Room("B209", "Lehrsaal", "B.2.09"));
 rooms.add(new Room("B210", "Küche Mitarberiter*innen", "B.2.10"));
 rooms.add(new Room("B211", "Lagerraum", "B.2.11"));
 rooms.add(new Room("B212", "Lagerraum", "B.2.12"));
-rooms.add(new Room("B213", "-", "B.2.13"));
+rooms.add(new Room("B213", null, "B.2.13"));
 rooms.add(new Room("B214", "Techink", "B.2.14")); //Assistant Researcher, Studentische Mitarbeit
 rooms.add(new Room("B215", "IT-Security", "B.2.15"));
 rooms.add(new Room("B216", "WC Mitarbeiter*innen", "B.2.16"));
@@ -273,7 +270,7 @@ rooms.add(new Room("B228", "Sozialwissenschaften Administration", "B.2.28")); //
 rooms.add(new Room("B229", "Küche Mitarbiet*innen", "B.2.29"));
 rooms.add(new Room("B230", "Kopierraum", "B.2.30"));
 rooms.add(new Room("B232", "Sozialwissenschaften Büro", "B.2.32"));
-rooms.add(new Room("B233", "-", "B.2.33"));
+rooms.add(new Room("B233", null, "B.2.33"));
 rooms.add(new Room("B234", "Sozialwissenschaften Büro", "B.2.34"));
 rooms.add(new Room("B235", "Sozialwissenschaften Büro", "B.2.35"));
 rooms.add(new Room("B236", "Betriebsrat", "B.2.36"));
@@ -282,34 +279,34 @@ rooms.add(new Room("B237", "Sozialwissenschaften Administration", "B.2.37")); //
 //Ebene: C.2
 rooms.add(new Room("C201", "Lehrsaal", "C.2.01"));
 rooms.add(new Room("C202", "Lehrsaal", "C.2.02"));
-rooms.add(new Room("C203a", "-", "C.2.03a"));
-rooms.add(new Room("C203b", "-", "C.2.03b"));
+rooms.add(new Room("C203a", null, "C.2.03a"));
+rooms.add(new Room("C203b", null, "C.2.03b"));
 rooms.add(new Room("C204", "Lehrsaal", "C.2.04"));
-rooms.add(new Room("C205", "-", "C.2.05"));
+rooms.add(new Room("C205", null, "C.2.05"));
 rooms.add(new Room("C206", "Lehrsaal", "C.2.06"));
 rooms.add(new Room("C207", "WC", "C.2.07")); //Zugang zu C.2.08
-rooms.add(new Room("C208", "ÖH Studierendenraum", "C.2.09"));
+rooms.add(new Room("C209", "ÖH Studierendenraum", "C.2.09"));
 rooms.add(new Room("C210", "Funktionsraum", "C.2.10"));
 rooms.add(new Room("C211", "Technikraum", "C.2.11"));
 rooms.add(new Room("C212", "Garderobe Lehrende F", "C.2.12"));
 rooms.add(new Room("C213", "Garderobe Lehrende M", "C.2.13"));
 rooms.add(new Room("C214", "Garderobe F", "C.2.14"));
 rooms.add(new Room("C215", "Technikraum", "C.2.15"));
-rooms.add(new Room("C216", "-", "C.2.16"));
-rooms.add(new Room("C217", "-", "C.2.17"));//Existiert der?
+rooms.add(new Room("C216", null, "C.2.16"));
+rooms.add(new Room("C217", null, "C.2.17"));
 rooms.add(new Room("C218", "Garderobe M", "C.2.18"));
-rooms.add(new Room("C219", "Lagerraum", "C.2.09"));
+rooms.add(new Room("C219", "Lagerraum", "C.2.19"));
 rooms.add(new Room("C220", "Funktionsraum Notfall und Wundversorgeung", "C.2.20"));
 rooms.add(new Room("C221", "Funktionsraum Bewegung und Entspannung", "C.2.21"));
 rooms.add(new Room("C222", "Funktionsraum Pflege und klinisches Wochenbett", "C.2.22"));
 rooms.add(new Room("C223", "Funktionsraum Schwangerschaft und Neugeborenen-Reanimation", "C.2.23"));
-rooms.add(new Room("C228", "-", "C.2.28"));
+rooms.add(new Room("C228", null, "C.2.28"));
 
 //Ebene: D.2
 rooms.add(new Room("D201", "Funktionsraum Geburt", "D.2.01"));
 rooms.add(new Room("D202", "Funktionsraum Stillen und außerklinisches Wochenbett", "D.2.02"));
 rooms.add(new Room("D203", "Hebammen Büro", "D.2.03"));
-rooms.add(new Room("D204", "Hebammen Büro", "D.2.01"));
+rooms.add(new Room("D204", "Hebammen Büro", "D.2.04"));
 rooms.add(new Room("D205", "Funktionsraum Hebammenpraxis", "D.2.05"));
 rooms.add(new Room("D206", "Hebammen Büro", "D.2.06"));
 rooms.add(new Room("D207", "Besprechungsraum", "D.2.07"));
@@ -317,11 +314,11 @@ rooms.add(new Room("D208", "Hebammen Büro", "D.2.08"));
 rooms.add(new Room("D209", "Besprechungsraum", "D.2.09"));
 rooms.add(new Room("D210", "Hebammen Büro", "D.2.10"));
 rooms.add(new Room("D211", "Hebammen Büro", "D.2.11"));
-rooms.add(new Room("D212", "-", "D.2.12"));
+rooms.add(new Room("D212", null, "D.2.12"));
 rooms.add(new Room("D213", "Hebammen Büro", "D.2.13"));
 rooms.add(new Room("D214", "Hebammen Büro", "D.2.14"));
 rooms.add(new Room("D215", "Radiotechnologie Lehrmittelraum", "D.2.15"));
-rooms.add(new Room("D216", "-", "D.2.16")); //auf Foto nicht lesbar?
+rooms.add(new Room("D216", null, "D.2.16")); //auf Foto nicht lesbar?
 rooms.add(new Room("D217", "Technikraum", "D.2.17"));
 rooms.add(new Room("D218", "Technikraum", "D.2.18"));
 rooms.add(new Room("D219", "Radiotechnologie Büro", "D.2.19"));
@@ -350,14 +347,14 @@ rooms.add(new Room("A305", "Technikraum", "A.3.05"));
 rooms.add(new Room("A306", "Technikraum", "A.3.06")); //Zugang zu A.3.07
 rooms.add(new Room("A308", "Infrastrukturmanagement Büro", "A.3.08"));
 rooms.add(new Room("A309", "WC", "A.3.09"));//+ Barrierefrei; Zugang zu A.3.10-11
-rooms.add(new Room("A312", "-", "A.3.12"));
+rooms.add(new Room("A312", null, "A.3.12"));
 rooms.add(new Room("A313", "Infrastrukturmanagement Büro", "A.3.13"));
 rooms.add(new Room("A314", "Infrastrukturmanagement Büro", "A.3.14"));
 rooms.add(new Room("A315", "Besprechungsraum", "A.3.15"));
-rooms.add(new Room("A316", "-", "A.3.16"));
+rooms.add(new Room("A316", null, "A.3.16"));
 rooms.add(new Room("A317", "Infrastrukturmanagement Büro", "A.3.17"));
 rooms.add(new Room("A318", "-", "A.3.18")); //auf Foto nicht lesbar
-rooms.add(new Room("A319", "-", "A.3.19"));
+rooms.add(new Room("A319", null, "A.3.19"));
 rooms.add(new Room("A320", "Infrastrukturmanagement Büro", "A.3.20"));//Campus Card und Anwendungsmanagement
 rooms.add(new Room("A321", "Infrastrukturmanagement Büro", "A.3.21"));
 rooms.add(new Room("A322", "Sozialwissenschaften Büro", "A.3.22"));
@@ -388,7 +385,7 @@ rooms.add(new Room("B315", "Technik Büro", "B.3.15"));
 rooms.add(new Room("B316", "WC", "B.3.16"));
 rooms.add(new Room("B318", "Technik Büro", "B.3.18"));
 rooms.add(new Room("B319", "Technik Studiengangsleiter", "B.3.19"));
-rooms.add(new Room("B320", "Technik Administration", "B.3.31")); //Computer Science and Digital Communications; IT-Security; Software Design and Engineering
+rooms.add(new Room("B320", "Technik Administration", "B.3.20")); //Computer Science and Digital Communications; IT-Security; Software Design and Engineering
 rooms.add(new Room("B321a", "Technik Administration", "B.3.21a"));//Multilingual Technologies
 rooms.add(new Room("B321b", "Technik Büro", "B.3.21b"));
 rooms.add(new Room("B322", "Technik Studiengangsleiter", "B.3.22"));
@@ -451,12 +448,12 @@ rooms.add(new Room("D317", "Technikraum", "D.3.17"));
 rooms.add(new Room("D318", "Lagerraum", "D.3.18"));
 rooms.add(new Room("D319", "Diätologie Büro", "D.3.19"));
 rooms.add(new Room("D320", "WC Mitarbeiter*innen", "D.3.20"));
-rooms.add(new Room("D322", "-", "D.3.22"));
+rooms.add(new Room("D322", null, "D.3.22"));
 rooms.add(new Room("D323", "Besprechungsraum", "D.3.23"));
-rooms.add(new Room("D324", "Küche Mitarbeiter*innen", "D.3.18"));
+rooms.add(new Room("D324", "Küche Mitarbeiter*innen", "D.3.24"));
 rooms.add(new Room("D325", "Kopierraum", "D.3.25"));
 rooms.add(new Room("D326", "Lagerraum", "D.3.26"));
-rooms.add(new Room("D327", "-", "D.3.27"));
+rooms.add(new Room("D327", null, "D.3.27"));
 rooms.add(new Room("D328", "Radiotechnologie Büro", "D.3.28")); //Sonography Studienprogrammleiterin
 rooms.add(new Room("D329", "Radiotechnologie Büro", "D.3.29"));
 rooms.add(new Room("D330", "Vorbereitunsraum für Lehrende", "D.3.30"));
@@ -472,9 +469,9 @@ rooms.add(new Room("A-102", "Lehrsaal", "A.-1.02"));
 rooms.add(new Room("A-103", "Lehrsaal", "A.-1.03"));
 rooms.add(new Room("A-104", "Lehrsaal", "A.-1.04"));
 rooms.add(new Room("A-105", "Lehrsaal", "A.-1.05"));
-rooms.add(new Room("A-106", "-", "A.-1.06")); //Zugang zu A.-1.08-21
-rooms.add(new Room("A-123", "-", "A.-1.23")); //Zugang zu A.-1.16, A.-1.22
-rooms.add(new Room("A-124", "-", "A.-1.24")); //Zugang zu A.-1.25
+rooms.add(new Room("A-106", null, "A.-1.06")); //Zugang zu A.-1.08-21
+rooms.add(new Room("A-123", null, "A.-1.23")); //Zugang zu A.-1.16, A.-1.22
+rooms.add(new Room("A-124", null, "A.-1.24")); //Zugang zu A.-1.25
 rooms.add(new Room("A-126", "Lagerraum", "A.-1.26")); //Zugang zu A.-1.27-28
 
 //Ebene: B.-1
@@ -482,13 +479,10 @@ rooms.add(new Room("B-101", "Küche", "B.-1.01"));
 rooms.add(new Room("B-111", "Cafeteria", "B.-1.11")); //Zugang zu B.-1.02-10, B.-1.12-13
 rooms.add(new Room("B-112", "Garderobe F", "B.-1.12"));
 rooms.add(new Room("B-113", "Garderobe M", "B.-1.13"));
-rooms.add(new Room("B-114", "-", "B.-1.14")); //Zugang zu B.-1.15-21
+rooms.add(new Room("B-114", null, "B.-1.14")); //Zugang zu B.-1.15-21
 rooms.add(new Room("B-122", "WC", "B.-1.22"));
 rooms.add(new Room("B-123", "WC", "B.-1.23")); //Zugang zu B.-1.23
-rooms.add(new Room("B-125", "-", "B.-1.25")); //Zugang zu B.-1.26-30
-
-//Ebene: C.-1
-//Ebene: D.-1
+rooms.add(new Room("B-125", null, "B.-1.25")); //Zugang zu B.-1.26-30
 
 //Ebene: A.-2
 rooms.add(new Room("A-205", "Lagerraum", "A.-2.05"));
@@ -496,7 +490,7 @@ rooms.add(new Room("A-205", "Lagerraum", "A.-2.05"));
 //Ebene: B.-2
 rooms.add(new Room("B-207", "Zugang Parkgarage", "B.-2.07")); //Zugang zu B.-2.03, B.-2.06
 rooms.add(new Room("B-208", "WC F", "B.-2.08"));
-rooms.add(new Room("B-209", "WC M", "A.-2.09")); //Einzeldusche und Umkleide für alle; Zugang zu?
+rooms.add(new Room("B-209", "WC M", "B.-2.09")); //Einzeldusche und Umkleide für alle; Zugang zu?
 
 //Ebene: C.-2
 rooms.add(new Room("C-201", "CT-Labor", "C.-2.01"));
@@ -505,10 +499,10 @@ rooms.add(new Room("C-204", "Strahlenlabor", "C.-2.04"));
 rooms.add(new Room("C-205", "OPIC Stationsstützpunkt", "C.-2.05")); //Zugang zu C.-2.06
 rooms.add(new Room("C-207", "OP-Saal", "C.-2.07"));
 rooms.add(new Room("C-208", "Funktionsraum", "C.-2.08"));
-rooms.add(new Room("C-209", "-", "C.-2.09")); //Zugang zu C.-2.12
+rooms.add(new Room("C-209", null, "C.-2.09")); //Zugang zu C.-2.12
 rooms.add(new Room("C-210", "Technikraum", "C.-2.10"));
 rooms.add(new Room("C-211", "Technikraum", "C.-2.11"));
-rooms.add(new Room("C-213", "-", "C.-2.13"));
+rooms.add(new Room("C-213", null, "C.-2.13"));
 rooms.add(new Room("C-214", "WC", "C.-2.14"));
 rooms.add(new Room("C-215", "Garderobe M", "C.-2.15"));
 rooms.add(new Room("C-216", "Turnsaal", "C.-2.16")); //Zugang zu C.-2.23
@@ -519,13 +513,13 @@ rooms.add(new Room("C-224", "Funktionsraum", "C.-2.24"));
 rooms.add(new Room("C-225", "Funktionsraum", "C.-2.25"));
 rooms.add(new Room("C-226", "Kardioraum", "C.-2.26"));
 rooms.add(new Room("C-227", "Arbeitsplatzsimulation", "C.-2.27"));
-rooms.add(new Room("C-228", "Technikraum", "C.-2.30"));
+rooms.add(new Room("C-228", "Technikraum", "C.-2.28"));
 rooms.add(new Room("C-229", "Lagerraum", "C.-2.29"));
 rooms.add(new Room("C-230", "Kraftraum", "C.-2.30"));
 rooms.add(new Room("C-231", "Lagerraum", "C.-2.31"));
 
 //Ebene: D.-2
-rooms.add(new Room("D-201", "-", "D.-2.01")); //Zugang zu D.-2.02-19
+rooms.add(new Room("D-201", "Labor", "D.-2.01")); //Zugang zu D.-2.02-19
 }
 
 public List<Room> getRooms(){
